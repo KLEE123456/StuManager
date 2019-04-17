@@ -1,0 +1,21 @@
+A.MzTreeview
+{
+  font-size: 9pt;
+  padding-left: 3px;
+}
+a:link {
+	color: blue;
+	text-decoration: none;
+}
+A:visited {
+	color: blue;
+	text-decoration: none;
+}
+a:hover {
+	color: #666666;
+	text-decoration: none;
+}
+a:active {
+	color: blue;
+	text-decoration: none;
+}

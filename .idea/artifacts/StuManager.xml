@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" build-on-make="true" name="StuManager">
+    <output-path>$PROJECT_DIR$/out/artifacts/StuManager</output-path>
+    <root id="root">
+      <element id="module-source" name="StuManager" />
+    </root>
+  </artifact>
+</component>

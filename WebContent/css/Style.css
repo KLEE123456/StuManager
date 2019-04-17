@@ -1,0 +1,149 @@
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+body
+{
+	font-size:12px}
+form {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; MARGIN: 1px; PADDING-TOP: 1px
+}
+
+P {
+	FONT-SIZE: 12px; MARGIN: 1px
+}
+
+INPUT {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; HEIGHT: 18px
+; color: #000000
+; padding-left: 2px
+; padding-right: 2px
+}
+
+div{FONT-SIZE: 12px; line-height:23px}
+
+.td1 {
+	BORDER-RIGHT: black 0px solid; BORDER-TOP: #CC0000 2px solid; BORDER-LEFT: #990000 5px solid; BORDER-BOTTOM: #990000 3px solid
+; font-size: 12px; line-height: 22px; clip:  rect(   10px)
+}
+
+
+/* 定义文本框样式*/
+.loinBox {
+	BORDER-RIGHT: lightgrey 0px solid; 
+	BORDER-TOP: navy 0px solid; FONT-SIZE: 9pt;
+	 BORDER-LEFT: lightgrey 0px solid; COLOR: white;
+	 BORDER-BOTTOM: white 1px solid; FONT-FAMILY: Arial;
+	  BACKGROUND-COLOR: transparent
+	  /*BORDER-BOTTOM: navy 1px solid; FONT-FAMILY: Arial; */
+	 
+}
+
+/* 定义DataGrid边样式  */
+.grayBorder
+{
+	border:solid #999999 1px;
+}
+
+/* DataGrid表头样式 */
+.headerCenter {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px;  PADDING-BOTTOM: 1px; BORDER-LEFT: #808080 0px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #808080 1px solid; BACKGROUND-COLOR: #e8e5e1; TEXT-ALIGN:center! important;
+}
+
+
+.HeaderCenter {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FAFAF9, endColorstr=#D7D4CC); PADDING-BOTTOM: 1px; BORDER-LEFT: #808080 0px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #808080 1px solid; BACKGROUND-COLOR: #e8e5e1; TEXT-ALIGN:center! important;
+}
+
+/* 页面标题部分文本样式 */
+.textHead
+{
+	font-size:13pt;
+	color:#FF3B00;
+    font-family:华文行楷;
+	font-style:normal;
+
+}
+
+/* 提示部分文字*/
+.alertText
+{
+	font-size:9pt;
+	color:#FF0000;
+    font-family:宋体;
+	font-style:normal;
+
+}
+
+/* 页面背景*/
+.pageBackground
+{
+  background-color:#FBF7E6;
+}
+
+/* 输入文字样式*/
+.inputCss {  
+    font-size: 9pt; 
+    color: #003399; 
+    font-family: "宋体"; 
+    font-style: normal; 
+    border-color: #93BEE2 #93BEE2 #93BEE2 #93BEE2 ; 
+    border: 1px #93BEE2 solid; 
+}
+
+/*定义文本区输入样式 */
+.textArea 
+{
+	BORDER-RIGHT: gray 1px solid; BORDER-TOP: gray 1px solid; BORDER-LEFT: gray 1px solid; BORDER-BOTTOM:gray 1px solid;OVERFLOW: auto;  FONT-FAMILY: 宋体; BACKGROUND-COLOR:#ffffff
+}
+
+/* 下拉菜单样式*/
+.ddlCss
+{
+    font-size  : 9pt; 
+    color: #003399; 
+    font-family: "宋体"; 
+    font-style: normal; 
+    border:0px;    
+}
+
+/*按钮样式*/
+.buttonCss {
+    font-family: "Tahoma", "宋体";
+    font-size: 9pt; color: #003399;
+    border: 1px #003399 solid;
+    color:#006699;
+    BORDER-BOTTOM: #93bee2 1px solid; 
+    BORDER-LEFT: #93bee2 1px solid; 
+    BORDER-RIGHT: #93bee2 1px solid; 
+    BORDER-TOP: #93bee2 1px solid;
+    background-image:url(images/bluebuttonbg.gif);
+    background-color: #e8f4ff;
+    CURSOR: hand;
+    font-style: normal ;
+}
+
+.cbBg
+{
+	border-width:0px;
+	 padding:0px;
+}
+
+.SmallInput 
+{ 
+	BORDER-TOP-WIDTH: 0px; 
+	FONT-WEIGHT: normal; 
+	BORDER-LEFT-WIDTH: 0px; 
+	FONT-SIZE: 9pt; 
+	BACKGROUND: #ffffff; 
+	BORDER-BOTTOM-WIDTH: 1px; 
+	BORDER-BOTTOM-COLOR: #0000CC; 
+	COLOR: #000000; 
+	LINE-HEIGHT: normal; 
+	FONT-STYLE: normal; 
+	HEIGHT: 18px; 
+	BORDER-RIGHT-WIDTH: 0px; 
+	FONT-VARIANT: normal;	
+}
