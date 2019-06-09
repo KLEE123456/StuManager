@@ -35,6 +35,7 @@
 	/* 检查院系是否能被删除的方法 */
 	function checkSp(num,id,depname){
 		if(confirm("你确定要删除"+depname+"吗")){
+		
 			if(num!=0){
 				alert('该院系不能删除！');
 				return;
@@ -91,7 +92,7 @@
   		<c:otherwise>
   			<c:forEach items="${DepList}" var="deplist" varStatus="status">
   				<tr>
-     				<td width="" align="center">${status.count }</td>
+     				<td width="" align="center">${status.count}</td>
      				<td width="" align="center">${deplist.depInfoCode }</td>
      				<td width="" align="center">${deplist.depinfoname }</td>
      				<td width="" align="center">${deplist.depinfoPreOfTech }</td>

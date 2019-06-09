@@ -10,6 +10,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.sound.midi.Soundbank;
 
 import com.stu.bean.Depinfo;
 import com.stu.bean.Paging;
@@ -227,7 +228,9 @@ public class DepInfoServlet extends HttpServlet{
 		String id=request.getParameter("depid");
 		Depinfo editDep=new Depinfo();
 		editDep.setDepinfoId(id);
+		System.out.println(id);
 		List<Depinfo> DepList=setDep.selectDepInfoList(editDep,null);
+		System.out.println(DepList);
 		request.setAttribute("editdep",DepList);
 		//将请求转发到编辑页面
 		request.getRequestDispatcher("pages/jsp/DepInfo/EditDep.jsp").forward(request, response);
